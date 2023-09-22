@@ -8,7 +8,6 @@ public class Player {
 
     // TODO: Instance should be named "player"
     private static Player player;
-
     /*
      * TODO: Constructor for Player
      * @param x x-coordinate of player (default 0.0)
@@ -16,11 +15,10 @@ public class Player {
      * @param movementSpeed movement speed of player (default 5.0)
      */
     private Player(double x, double y, double movementSpeed) {
-        x =  0.0;
-        y = 0.0;
-        movementSpeed = 5.0;
+        this.x = x;
+        this.y = y;
+        this.movementSpeed = movementSpeed;
     }
-
     /*
      * TODO: Returns the instance of the player
      * Name: getPlayer()
