@@ -16,9 +16,9 @@ public class Player {
      * @param movementSpeed movement speed of player (default 5.0)
      */
     private Player(double x, double y, double movementSpeed) {
-        this.x = x;
-        this.y = y;
-        this.movementSpeed = movementSpeed;
+        x =  0.0;
+        y = 0.0;
+        movementSpeed = 5.0;
     }
 
     /*
