@@ -15,9 +15,9 @@ public class Player {
      * @param movementSpeed movement speed of player (default 5.0)
      */
     private Player(double x, double y, double movementSpeed) {
-        this.x = x;
-        this.y = y;
-        this.movementSpeed = movementSpeed;
+        this.x = 0.0;
+        this.y = 0.0;
+        this.movementSpeed = 5.0;
     }
     /*
      * TODO: Returns the instance of the player
@@ -26,7 +26,7 @@ public class Player {
      */
     public static Player getPlayer() {
         if (player == null) {
-            player = new Player(0.0, 0.0, 5.0);
+            player = new Player();
         }
         return player;
     }
